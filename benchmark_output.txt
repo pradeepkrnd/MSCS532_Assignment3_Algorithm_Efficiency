@@ -1,0 +1,31 @@
+Input: [1]
+Randomized:    [1]
+Deterministic: [1]
+Input: [3, 1, 2]
+Randomized:    [1, 2, 3]
+Deterministic: [1, 2, 3]
+Input: [5, 5, 2, 5, 1]
+Randomized:    [1, 2, 5, 5, 5]
+Deterministic: [1, 2, 5, 5, 5]
+Input: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Randomized:    [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Deterministic: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+Average benchmark time (milliseconds)
+Distribution,Size,Randomized,Deterministic
+Random,250,0.308,0.185
+Random,500,0.552,0.414
+Random,1000,1.218,1.597
+Random,2000,2.887,2.201
+Sorted,250,0.234,0.860
+Sorted,500,0.550,3.814
+Sorted,1000,1.284,16.771
+Sorted,2000,3.475,61.332
+Reverse-sorted,250,0.227,1.582
+Reverse-sorted,500,0.526,6.575
+Reverse-sorted,1000,1.249,27.017
+Reverse-sorted,2000,2.904,108.984
+Repeated elements,250,0.436,0.333
+Repeated elements,500,1.308,1.229
+Repeated elements,1000,4.511,4.245
+Repeated elements,2000,17.541,16.874
